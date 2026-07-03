@@ -184,12 +184,6 @@ a:focus-visible, button:focus-visible {
   opacity: 0.92;
 }
 
-.icon-bacteria-side {
-  width: 190px;
-  height: auto;
-  margin: 22px 0 0 -34px;
-}
-
 @media (max-width: 640px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -198,7 +192,6 @@ a:focus-visible, button:focus-visible {
     width: 170px;
     margin: 0 auto 8px;
   }
-  .icon-bacteria-side { display: none; }
 }
 
 .eyebrow {
