@@ -110,6 +110,31 @@ a:focus-visible, button:focus-visible {
   pointer-events: none;
 }
 
+.hero-bg-icon {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.hero-bg-microscope {
+  width: 230px;
+  height: auto;
+  top: 18px;
+  right: 40px;
+}
+
+.hero-bg-dna {
+  width: 170px;
+  height: auto;
+  bottom: 10px;
+  right: 20px;
+}
+
+@media (max-width: 900px) {
+  .hero-bg-icon { display: none; }
+}
+
 .hero-grid {
   position: relative;
   z-index: 1;
@@ -126,24 +151,31 @@ a:focus-visible, button:focus-visible {
 
 .hero-content {
   position: relative;
-  padding-right: 100px;
-}
-
-@media (max-width: 640px) {
-  .hero-content { padding-right: 0; }
 }
 
 .specimen-photo {
+  position: relative;
   margin: 0;
+  border: 1px dashed var(--line);
+  background: var(--paper-dim);
+  padding: 10px;
 }
 
 .specimen-photo img {
   display: block;
   width: 100%;
-  height: 230px;
+  height: 210px;
   object-fit: cover;
   object-position: top center;
   filter: grayscale(90%) sepia(10%) contrast(1.05) brightness(1.02);
+}
+
+.icon-dna-small {
+  position: absolute;
+  top: -16px;
+  right: -14px;
+  width: 34px;
+  height: auto;
 }
 
 .icon-accent {
@@ -157,22 +189,6 @@ a:focus-visible, button:focus-visible {
   margin: 18px 0 0 -20px;
 }
 
-.icon-dna {
-  width: 78px;
-  height: auto;
-  position: absolute;
-  top: -8px;
-  right: 0;
-}
-
-.icon-microscope {
-  width: 108px;
-  height: auto;
-  position: absolute;
-  top: 66px;
-  right: -18px;
-}
-
 @media (max-width: 640px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -182,7 +198,6 @@ a:focus-visible, button:focus-visible {
     margin: 0 auto 8px;
   }
   .icon-bacteria-side { display: none; }
-  .icon-dna, .icon-microscope { display: none; }
 }
 
 .eyebrow {
