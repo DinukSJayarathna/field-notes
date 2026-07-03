@@ -1,0 +1,75 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <svg class="hero-veins" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#52795F" stroke-width="1">
+      <path d="M200 40 C 220 120, 180 160, 210 240 C 230 300, 190 340, 205 380"/>
+      <path d="M205 90 C 240 100, 260 130, 290 135"/>
+      <path d="M198 150 C 160 165, 130 160, 100 180"/>
+      <path d="M212 210 C 250 220, 270 250, 305 260"/>
+      <path d="M200 270 C 165 285, 145 310, 115 325"/>
+      <path d="M203 330 C 235 335, 255 355, 280 365"/>
+      <circle cx="200" cy="40" r="3" fill="#B07A2E" stroke="none"/>
+      <circle cx="290" cy="135" r="2.5" fill="#B07A2E" stroke="none"/>
+      <circle cx="100" cy="180" r="2.5" fill="#B07A2E" stroke="none"/>
+      <circle cx="305" cy="260" r="2.5" fill="#B07A2E" stroke="none"/>
+      <circle cx="115" cy="325" r="2.5" fill="#B07A2E" stroke="none"/>
+      <circle cx="205" cy="380" r="3" fill="#B07A2E" stroke="none"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <p class="eyebrow">Field Notes in Biotechnology</p>
+    <h1>Dinuk Jayarathna<br><em>life at a scale most people miss.</em></h1>
+    <p class="lede">Biotechnology undergraduate at SLIIT, working toward a career in microbiology, molecular biology, and research. This is where I write down what I'm learning — in the lab, in coursework, and behind a macro lens.</p>
+    <div class="links">
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn ↗</a>
+      <a href="https://orcid.org/YOUR-ORCID-ID">ORCID ↗</a>
+      <a href="https://instagram.com/dinuk_s_jayarathna">Instagram ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="wrap">
+    <h2 class="section-title">About</h2>
+    <div class="specimen" data-catalog="Specimen No. 001">
+      <h3>Undergraduate Researcher-in-Training</h3>
+      <p>I'm a BSc (Hons) Biotechnology student at the Sri Lanka Institute of Information Technology (SLIIT), currently building a foundation across biochemistry, molecular biology, microbiology, genetics, and cell culture. I'm most drawn to the molecular and microbial side of biology — how cells work, how genetic mechanisms can be studied and manipulated, and what that reveals about biological systems more broadly.</p>
+      <p>Outside coursework, I explore the same instinct for close observation through macro photography — documenting the small-scale detail of plant and insect life that's easy to walk past.</p>
+      <div class="fields">
+        <div class="field"><b>Institution</b>SLIIT, Sri Lanka</div>
+        <div class="field"><b>Programme</b>BSc (Hons) Biotechnology</div>
+        <div class="field"><b>Focus</b>Microbiology · Molecular Biology</div>
+        <div class="field"><b>Based in</b>Sri Lanka</div>
+      </div>
+    </div>
+
+    <div class="tag-row">
+      <span class="tag">Molecular Biology</span>
+      <span class="tag">Microbiology</span>
+      <span class="tag">Genetics</span>
+      <span class="tag">Cell Culture</span>
+      <span class="tag">Biochemistry</span>
+      <span class="tag">Research Methods</span>
+      <span class="tag">Macro Photography</span>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="notes">
+  <div class="wrap">
+    <h2 class="section-title">Field Notes</h2>
+    {% for post in site.posts %}
+    <a class="note-card" href="{{ post.url | relative_url }}">
+      <div class="note-meta">{{ post.date | date: "%d %B %Y" }}{% if post.category %} · {{ post.category }}{% endif %}</div>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+    </a>
+    {% else %}
+    <p>Posts in progress — check back soon.</p>
+    {% endfor %}
+  </div>
+</section>
