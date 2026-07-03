@@ -101,10 +101,10 @@ a:focus-visible, button:focus-visible {
 
 .hero-veins {
   position: absolute;
-  top: -40px;
-  right: -80px;
-  width: 480px;
-  height: 480px;
+  top: -30px;
+  right: -60px;
+  width: 520px;
+  height: 520px;
   opacity: 0.55;
   z-index: 0;
   pointer-events: none;
