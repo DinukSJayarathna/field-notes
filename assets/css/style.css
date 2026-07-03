@@ -110,7 +110,81 @@ a:focus-visible, button:focus-visible {
   pointer-events: none;
 }
 
-.hero .wrap { position: relative; z-index: 1; }
+.hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 44px;
+  align-items: start;
+}
+
+.hero-photo-col {
+  position: relative;
+}
+
+.specimen-photo {
+  margin: 0;
+  border: 1px dashed var(--line);
+  background: var(--paper-dim);
+  padding: 10px;
+}
+
+.specimen-photo img {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  object-position: top center;
+  filter: grayscale(90%) sepia(10%) contrast(1.05) brightness(1.02);
+}
+
+.specimen-photo figcaption {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-accent {
+  display: block;
+  opacity: 0.65;
+}
+
+.icon-dna {
+  width: 34px;
+  height: auto;
+  position: absolute;
+  top: -18px;
+  right: -14px;
+}
+
+.icon-microscope {
+  width: 56px;
+  height: auto;
+  margin: 18px auto 0;
+}
+
+.icon-bacteria {
+  width: 130px;
+  height: auto;
+  margin-top: 34px;
+  opacity: 0.5;
+}
+
+@media (max-width: 640px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-photo-col {
+    width: 160px;
+    margin: 0 auto 8px;
+  }
+  .icon-bacteria { display: none; }
+}
 
 .eyebrow {
   font-family: var(--font-mono);
