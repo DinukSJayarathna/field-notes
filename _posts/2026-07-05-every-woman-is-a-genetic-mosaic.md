@@ -18,7 +18,7 @@ That dark spot is now called a **Barr body** — and it turns out to be a tightl
 
 Females inherit two X chromosomes (one from each parent), while males only have one. If both X chromosomes in a female's cells stayed fully active, she'd be producing roughly double the dose of every X-linked gene compared to a male. Biology corrects for this with a process called **X-inactivation**: early in embryonic development, each cell randomly switches off one of its two X chromosomes, condensing it into a Barr body so it stays silent in that cell and all of its descendants for life.
 
-![Diagram showing X-inactivation: an early embryonic cell with two active X chromosomes, one randomly condensing into a Barr body, then all descendant cells inheriting that same inactivation](/assets/img/x-inactivation-diagram.png)
+![Diagram showing X-inactivation: an early embryonic cell with two active X chromosomes, one randomly condensing into a Barr body, then all descendant cells inheriting that same inactivation](/field-notes/assets/img/x-inactivation-diagram.png)
 
 The important detail is that the choice of *which* X gets shut off is random, and it's made independently, cell by cell, across the early embryo. Once a given cell makes its choice, every cell that divides from it afterward inherits that same choice.
 
@@ -48,7 +48,7 @@ That last case raises a good question: if only one X is ever supposed to stay ac
 
 If you want to actually *see* this mechanism at work, look no further than a calico or tortoiseshell cat. The gene for orange versus black fur color sits on the X chromosome, so a female cat carrying one "orange" X and one "black" X ends up with visibly patched fur — each patch corresponding to a region descended from an embryonic cell that made a particular X-inactivation choice. It's also why calico cats are almost always female: a male only has one X, so there's no second color to patch in.
 
-![Diagram showing how random X-inactivation in a calico cat embryo leads to patches of orange and black fur in the adult cat](/assets/img/calico-mosaic-diagram.png)
+![Diagram showing how random X-inactivation in a calico cat embryo leads to patches of orange and black fur in the adult cat](/field-notes/assets/img/calico-mosaic-diagram.png)
 
 ## Why this stuck with me
 
