@@ -479,7 +479,6 @@ section.block:last-of-type { border-bottom: none; }
   height: auto;
   margin: 32px auto;
   border-radius: 4px;
-  border: 1px solid var(--line);
 }
 
 /* Footer */
