@@ -18,7 +18,7 @@ Probiotics are live microorganisms that, when consumed in sufficient quantity, p
 
 The most well known examples are lactic acid bacteria, a group that includes species like *Lactobacillus* and *Bifidobacterium*. These are the bacteria responsible for turning milk into yogurt or curd. During that fermentation process, the bacteria consume lactose, the natural sugar in milk, and produce lactic acid as a byproduct. That lactic acid is what curdles the milk proteins and gives yogurt its thickness and tang. It is a genuine, visible transformation caused entirely by living organisms doing their normal metabolism.
 
-![Bowl of yogurt topped with blueberries, a natural source of probiotics](/field-notes/assets/img/probiotics.png)
+![Bowl of yogurt topped with blueberries, a natural source of probiotics](/field-notes/assets/img/Probiotics.png)
 
 Here is the important detail that many people miss. For a probiotic to actually work, the bacteria must survive the trip through your stomach. Stomach acid is extremely acidic, and bile released in the small intestine is harsh on many microorganisms. A large number of bacteria consumed in food never make it to the large intestine alive. This is precisely why not every fermented food is an equally strong source of active probiotics, and why specific, well studied strains are used in dedicated probiotic products rather than just any bacteria that happens to be present.
 
@@ -32,7 +32,7 @@ Since your own body cannot digest this fiber, it travels through the small intes
 
 A simple way to picture the difference: a probiotic is like bringing new residents into a neighborhood. A prebiotic is like stocking the grocery store that the residents who already live there depend on. You are not adding anyone new. You are strengthening who is already present.
 
-![Prebiotic-rich foods including bananas, garlic, onions, oats, and chickpeas](/field-notes/assets/img/prebiotics.png)
+![Prebiotic-rich foods including bananas, garlic, onions, oats, and chickpeas](/field-notes/assets/img/Prebiotics.png)
 
 **Examples of prebiotic-rich foods:**
 - Garlic and onions, which contain a fiber called inulin
@@ -48,7 +48,7 @@ A synbiotic is a product that deliberately combines a probiotic and a prebiotic 
 
 The reasoning behind this is straightforward. If you introduce a probiotic strain on its own, it still has to compete for available nutrients once it arrives in the gut, and it may not find the specific fiber it thrives on. By pairing that same strain with its preferred fiber in one product, you increase the odds that the introduced bacteria will actually survive, establish themselves, and multiply, rather than simply passing through and being excreted without ever taking hold.
 
-![A synbiotic supplement combining probiotics and prebiotics](/field-notes/assets/img/synbiotics.png)
+![A synbiotic supplement combining probiotics and prebiotics](/field-notes/assets/img/Synbiotics.png)
 
 This is not simply a marketing term stitched together from two buzzwords. Different bacterial strains prefer different types of fiber, in the same way different plants thrive in different soil conditions. Matching the correct fiber to the correct bacterial strain is an active, ongoing area of food science research. A poorly matched synbiotic product, where the fiber included does not actually suit the bacterial strain used, offers little real advantage over simply consuming a probiotic and a prebiotic separately.
 
